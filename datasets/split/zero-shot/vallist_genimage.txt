@@ -1,0 +1,8 @@
+1 adm_imagenet/ai
+2 biggan_imagenet/ai
+3 glide_imagenet/ai
+4 midjourney_imagenet/ai
+5 sdv4_imagenet/ai
+6 sdv5_imagenet/ai
+7 vqdm_imagenet/ai
+8 wukong_imagenet/ai

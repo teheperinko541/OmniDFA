@@ -1,0 +1,15 @@
+38 SDXL
+36 Playground_V_2_5
+43 UniWorld_V_1
+3 BLIP3_o
+28 Midjourney_V_4
+6 CogView_4
+35 PixArt_Alpha
+7 DALLE_2
+9 DDIM
+15 GLIDE
+16 GPT4_o
+18 HiDream_I1_Dev
+2 BAGEL
+8 DALLE_3
+41 Stable_Diffusion_V_1_5

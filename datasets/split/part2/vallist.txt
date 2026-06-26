@@ -1,0 +1,15 @@
+32 OmniGen
+27 Lumina_Image_2_0
+39 Show_O
+40 Stable_Diffusion_3_Medium
+30 Midjourney_V_6
+14 GALIP
+26 LlamaGen
+21 Ideogram
+23 Infinity
+31 Muse
+42 StyleGAN_3
+1 ADM
+20 IF
+17 GigaGAN
+44 VQDM

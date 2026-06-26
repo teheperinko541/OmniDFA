@@ -1,0 +1,15 @@
+19 Hunyuan_DiT
+22 Imagen
+37 SANA_V_1_5
+11 DF_GAN
+24 Janus_Pro
+10 DDPM
+29 Midjourney_V_5
+33 OmniGen_2
+13 FLUX_Dev
+4 BRIA_3_2
+34 Ovis_U_1
+5 CogView_2
+45 VQVAE
+25 Leonardo_Phoenix
+12 DiT_XL

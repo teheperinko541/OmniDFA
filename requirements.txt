@@ -1,0 +1,8 @@
+torch
+torchvision
+numpy
+timm
+einops
+opencv-python
+dill
+torchmetrics
