@@ -2,9 +2,15 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.25682"><img src="https://img.shields.io/badge/arXiv-paper-red?style=flat&logo=arXiv" alt="Paper" height="25"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Dataset-OmniFake-blue?style=flat&logo=huggingface&logoColor=white" alt="Dataset" height="25"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Model_Weights-OmniDFA-orange?style=flat&logo=huggingface&logoColor=white" alt="Model Weights" height="25"></a>
+  <a href="https://huggingface.co/datasets/MoeNew/OmniFake"><img src="https://img.shields.io/badge/Dataset-OmniFake-blue?style=flat&logo=huggingface&logoColor=white" alt="Dataset" height="25"></a>
+  <a href="https://huggingface.co/MoeNew/OmniDFA"><img src="https://img.shields.io/badge/Model_Weights-OmniDFA-orange?style=flat&logo=huggingface&logoColor=white" alt="Model Weights" height="25"></a>
 </p>
+
+## 📰 News
+
+* **[2026.06.27]** 🔥 We are uploading **OmniFake** to HuggingFace. Due to network bandwidth limitations, the full dataset will be available within 1 week.
+* **[2026.06.26]** ✅ We have released the model weights for **OmniDFA**. Check out **[** [HuggingFace](https://huggingface.co/MoeNew/OmniDFA) **]**.
+* **[2026.06.24]** ✅ We have open-sourced the **OmniDFA** codebase. Check out our **[** [Paper](https://arxiv.org/abs/2509.25682) **]**.
 
 Generative models now forge photorealistic images that defy visual scrutiny, collapsing the boundary between authentic and synthetic. Existing attribution methods operate in a **closed-set** manner — they require retraining whenever a new generator appears, making them quickly obsolete in the face of rapidly evolving generation technology.
 
@@ -34,7 +40,7 @@ More detailed class sources are listed in Appendix Table 1 of the paper.
 
 ### Download
 
-Download the OmniFake dataset from the following link: [HuggingFace](https://huggingface.co/datasets/your-org/OmniFake)
+Download the OmniFake dataset from the following link: [HuggingFace](https://huggingface.co/datasets/MoeNew/OmniFake)
 
 After downloading, extract the archives using the provided helper script:
 
@@ -159,7 +165,7 @@ If you find OmniFake or OmniDFA useful in your research, please cite:
 ```bibtex
 @article{omnidfa2026,
   title={OmniDFA: Omni AI-Generated Image Detector with Few-Shot Attribution},
-  author={Shiyu Wu, Shuyan Li, Jing Li, Jing Liu, Yequan Wang},
+  author={Shiyu Wu and Shuyan Li and Jing Li and Jing Liu and Yequan Wang},
   journal={arXiv preprint arXiv:2509.25682},
   year={2026}
 }
