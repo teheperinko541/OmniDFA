@@ -1,4 +1,4 @@
-# OmniDFA: Omni AI-Generated Image Detector with Few-Shot Attribution
+# Few-Shot Synthetic Image Attribution: Identifying Unseen Generators with Limited Samples
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.25682"><img src="https://img.shields.io/badge/arXiv-paper-red?style=flat&logo=arXiv" alt="Paper" height="25"></a>
