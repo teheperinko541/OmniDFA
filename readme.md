@@ -8,7 +8,7 @@
 
 ## 📰 News
 
-* **[2026.06.27]** 🔥 We are uploading **OmniFake** to HuggingFace. Due to network bandwidth limitations, the full dataset will be available within 1 week.
+* **[2026.06.30]** ✅ We have released the **OmniFake** dataset. Check out **[** [HuggingFace](https://huggingface.co/datasets/MoeNew/OmniFake) **]**.
 * **[2026.06.26]** ✅ We have released the model weights for **OmniDFA**. Check out **[** [HuggingFace](https://huggingface.co/MoeNew/OmniDFA) **]**.
 * **[2026.06.24]** ✅ We have open-sourced the **OmniDFA** codebase. Check out our **[** [Paper](https://arxiv.org/abs/2509.25682) **]**.
 
@@ -85,7 +85,7 @@ Our experiments are conducted with PyTorch 2.6.0 and CUDA 12.4.
 
 ### 2. Download Model Weights
 
-Download pretrained model weights from: [HuggingFace](https://huggingface.co/your-org/OmniDFA) | [BaiduYun](https://pan.baidu.com/s/1OxiASGLzQLByYxkGRxKzdg) (code: `eccv`)
+Download pretrained model weights from: [HuggingFace](https://huggingface.co/MoeNew/OmniDFA) | [BaiduYun](https://pan.baidu.com/s/1OxiASGLzQLByYxkGRxKzdg) (code: `eccv`)
 
 ### 3. Training
 
@@ -128,8 +128,8 @@ OMP_NUM_THREADS=1 torchrun --standalone --nnodes=1 --nproc_per_node=4 eval_detec
 # Chameleon OOD evaluation
 OMP_NUM_THREADS=1 torchrun --standalone --nnodes=1 --nproc_per_node=4 eval_detection.py \
   --use_bf16 --data_path /path/to/chameleon \
-  --fake_file_path datasets/split/zero-shot/vallist_chamelon.txt \
-  --real_file_path datasets/split/zero-shot/reallist_chamelon.txt \
+  --fake_file_path datasets/split/zero-shot/vallist_chameleon.txt \
+  --real_file_path datasets/split/zero-shot/reallist_chameleon.txt \
   --ckpt_path your_ckpt_path
 ```
 
@@ -141,7 +141,7 @@ Edit `scripts/eval_attribution.sh` to set `DATA_PATH`, `CKPT_PATH`, `N_WAY`, and
 bash scripts/eval_attribution.sh
 ```
 
-Default configuration: **5-way 10-shot**, 5 queries per class, 10 000 episodes. Supports `--n_way 5` or `--n_way 15`.
+Default configuration: **5-way 10-shot**, 5 queries per class, 10,000 episodes. Supports `--n_way 5` or `--n_way 15`.
 
 ```bash
 OMP_NUM_THREADS=1 torchrun --standalone --nnodes=1 --nproc_per_node=4 eval_attribution.py \
@@ -164,7 +164,7 @@ If you find OmniFake or OmniDFA useful in your research, please cite:
 
 ```bibtex
 @article{omnidfa2026,
-  title={OmniDFA: Omni AI-Generated Image Detector with Few-Shot Attribution},
+  title={Few-Shot Synthetic Image Attribution: Identifying Unseen Generators with Limited Samples},
   author={Shiyu Wu and Shuyan Li and Jing Li and Jing Liu and Yequan Wang},
   journal={arXiv preprint arXiv:2509.25682},
   year={2026}
